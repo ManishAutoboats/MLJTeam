@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: com.runner.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 11.70 s <<< FAILURE! -- in com.runner.TestRunner
+Payment functionality.Verify user is able to place an order -- Time elapsed: 10.62 s <<< FAILURE!
+org.junit.ComparisonFailure: expected:<...K YOU FOR YOUR ORDER[1]> but was:<...K YOU FOR YOUR ORDER[]>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at com.helper.Base.ValidateText(Base.java:189)
+	at com.pages.PaymentPage.validateOrderConfirmation(PaymentPage.java:37)
+	at com.StepDefinations.PaymentPageSteps.validate_the_sucess_message(PaymentPageSteps.java:40)
+	at ✽.validate the sucess message "THANK YOU FOR YOUR ORDER1"(file:///D:/AutomationSelenium/com.TestAutomationFramework/src/test/java/com/features/Payment.feature:11)
+
